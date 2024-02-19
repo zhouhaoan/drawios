@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" modified="2024-02-19T09:45:57.600Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="7k5CmMArhgq-sY_lKkRR" version="23.1.5" type="device">
+  <diagram name="第 1 页" id="4QzAY2mrPzCXLxEABBCK">
+    <mxGraphModel dx="956" dy="547" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9v04oTkLA790iH3JaDTC-12" value="VM pool&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=12 12;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="144" y="326" width="540" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-1" value="&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;VMM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=3;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="144" y="490" width="540" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9v04oTkLA790iH3JaDTC-8" target="9v04oTkLA790iH3JaDTC-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-8" value="vProcessor 2&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="435" width="207" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9v04oTkLA790iH3JaDTC-7" target="9v04oTkLA790iH3JaDTC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-7" value="vProcessor 1&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="435" width="98" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-2" value="CPU 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="164" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-3" value="CPU 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-4" value="CPU 3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="384" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-5" value="CPU n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="584" y="500" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=6;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="484" y="520" as="sourcePoint" />
+            <mxPoint x="564" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9v04oTkLA790iH3JaDTC-9" target="9v04oTkLA790iH3JaDTC-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-9" value="vProcessor m&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="435" width="98" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-13" value="VM 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="168" y="353.5" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-14" value="VM 2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="332.5" y="353.5" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-16" value="VM m" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="588" y="353" width="72" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9v04oTkLA790iH3JaDTC-17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=6;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="443" y="376.16" as="sourcePoint" />
+            <mxPoint x="523" y="376.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
