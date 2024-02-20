@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T07:01:51.806Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="oOD5PlC4M_l1wqwKcr-r" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T07:07:32.519Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="VKANiT8IuM35FuOAugof" version="23.1.5" type="github">
   <diagram name="Page-1" id="UFbd4jp9Xy5DaHVATEkA">
     <mxGraphModel dx="989" dy="514" grid="0" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -29,6 +29,11 @@
         </mxCell>
         <mxCell id="9phPynLzDI40dk6Kf4UA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9phPynLzDI40dk6Kf4UA-9" target="9phPynLzDI40dk6Kf4UA-14">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-26" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9phPynLzDI40dk6Kf4UA-22">
+          <mxGeometry x="0.375" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9phPynLzDI40dk6Kf4UA-9" value="ISS值与驱动侧相同" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="309" width="160" height="60" as="geometry" />
