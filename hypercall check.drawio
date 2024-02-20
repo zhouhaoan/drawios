@@ -1,9 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T06:33:51.765Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" version="23.1.5" etag="8eO5wjg6MGHE7ZeyuI4k" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T06:47:38.009Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0" etag="R5-AgTnR0olPzZLPs6t6" version="23.1.5" type="github">
   <diagram name="Page-1" id="UFbd4jp9Xy5DaHVATEkA">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9phPynLzDI40dk6Kf4UA-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9phPynLzDI40dk6Kf4UA-5" target="9phPynLzDI40dk6Kf4UA-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-5" value="读取ESR_EL2寄存器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="170" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9phPynLzDI40dk6Kf4UA-7" target="9phPynLzDI40dk6Kf4UA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-7" value="解析寄存器获得ISS字段值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="230" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9phPynLzDI40dk6Kf4UA-9" target="9phPynLzDI40dk6Kf4UA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-13" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9phPynLzDI40dk6Kf4UA-12">
+          <mxGeometry x="-0.1143" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9phPynLzDI40dk6Kf4UA-9" target="9phPynLzDI40dk6Kf4UA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-9" value="ISS值与驱动侧相同" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="290" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-11" value="处理超调用" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-14" value="标记为非法异常并返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9phPynLzDI40dk6Kf4UA-15" target="9phPynLzDI40dk6Kf4UA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-18" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9phPynLzDI40dk6Kf4UA-17">
+          <mxGeometry x="-0.2571" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9phPynLzDI40dk6Kf4UA-15" target="9phPynLzDI40dk6Kf4UA-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-21" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9phPynLzDI40dk6Kf4UA-20">
+          <mxGeometry x="0.1071" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-15" value="是否为hvc指令陷入" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="70" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-19" value="运行异常向量表中其他函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9phPynLzDI40dk6Kf4UA-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9phPynLzDI40dk6Kf4UA-24" value="陷入EL2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="10" width="80" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
