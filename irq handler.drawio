@@ -1,9 +1,132 @@
-<mxfile host="app.diagrams.net" modified="2024-02-28T07:17:00.429Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="23.1.7" etag="XGLNDXwskJgjN4AfXrhR" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-28T07:30:56.808Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="-FFFoyxnscWRm6BMibWf" version="23.1.7" type="github">
   <diagram name="第 1 页" id="pKO_MGpzBgBjghkHKRON">
-    <mxGraphModel>
+    <mxGraphModel dx="895" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-1" target="EyAcGvmf36tDCY_UrAtV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-1" value="irq_handler" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="70" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-2" target="EyAcGvmf36tDCY_UrAtV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-2" value="读取中断号&lt;br&gt;get_irqn()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="160" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-4" target="EyAcGvmf36tDCY_UrAtV-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-8" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyAcGvmf36tDCY_UrAtV-7">
+          <mxGeometry x="0.1918" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-4" target="EyAcGvmf36tDCY_UrAtV-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-11" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyAcGvmf36tDCY_UrAtV-10">
+          <mxGeometry x="0.1567" relative="1" as="geometry">
+            <mxPoint x="-1" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-4" value="是否为软中断(SGI)？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="340" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-6" target="EyAcGvmf36tDCY_UrAtV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-6" value="处理软中断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-9" target="EyAcGvmf36tDCY_UrAtV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-9" value="处理物理中断" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-12" target="EyAcGvmf36tDCY_UrAtV-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-14" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyAcGvmf36tDCY_UrAtV-13">
+          <mxGeometry x="-0.5356" relative="1" as="geometry">
+            <mxPoint x="-1" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-12" target="EyAcGvmf36tDCY_UrAtV-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-17" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyAcGvmf36tDCY_UrAtV-16">
+          <mxGeometry x="-0.2576" y="2" relative="1" as="geometry">
+            <mxPoint x="3" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-12" value="中断号是否有效？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="240" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-15" value="返回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="494" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-19" target="EyAcGvmf36tDCY_UrAtV-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-24" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyAcGvmf36tDCY_UrAtV-23">
+          <mxGeometry x="-0.4838" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-19" target="EyAcGvmf36tDCY_UrAtV-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-28" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EyAcGvmf36tDCY_UrAtV-27">
+          <mxGeometry x="-0.6292" y="1" relative="1" as="geometry">
+            <mxPoint x="-8" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-19" value="中断处理完毕？" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="520" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="640" />
+              <mxPoint x="130" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-22" value="降低中断优先级" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="585" width="105" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EyAcGvmf36tDCY_UrAtV-26" target="EyAcGvmf36tDCY_UrAtV-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="600" />
+              <mxPoint x="130" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EyAcGvmf36tDCY_UrAtV-26" value="失能该中断" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="187.5" y="580" width="105" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
